@@ -1,0 +1,70 @@
+body {
+        margin: 0
+    }
+    
+    .contact-info {
+        background-color: yellow;
+    }
+
+    #topBar {
+        background-color: coral;
+        font-size: 2rem;
+        padding: 4rem;
+        margin: 0rem;
+        border: 2rem;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    #name {
+        position: absolute;
+        margin-top: 0rem;
+        height: 0;
+        left: 0rem;
+        font-size: 3rem;
+        /* opacity:0.1; */
+    }
+    
+    #info {
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+        font-size: 1.5rem;
+        font-style: oblique;
+    }
+    
+    #projectContentJS {
+        background-color: darksalmon;
+        padding: 4rem;
+        padding-left: 10rem;
+    }
+    
+    .container {
+        display: inline-flex;
+        position: relative;
+        background-color: crimson;
+        width: 40%;
+        height: 18rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    
+    .projectContentJSimg{
+        opacity:0;
+        position: relative;
+        bottom: 0.5rem;
+    }
+    
+    .projectContentJSimg:hover {
+        opacity: 1.0;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .jsContent {
+        font-size: 3rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        position: absolute;
+        left:1rem;
+    }
+    
